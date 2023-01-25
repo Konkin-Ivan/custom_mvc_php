@@ -2,6 +2,7 @@
 ## Docker
 ###.env
 DOMAIN=local.local
+
 PROJECT_NAME=bingo_project
 
 docker-compose up -d
