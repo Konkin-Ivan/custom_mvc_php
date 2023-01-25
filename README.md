@@ -4,9 +4,9 @@
 
 DOMAIN=local.local
 
-PROJECT_NAME=bingo_project
+PROJECT_NAME=bingo_project <-- change it
 
-docker-compose up -d
+docker-compose up -d <-- change it
 
 ## Project folder
 web/public
