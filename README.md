@@ -1,6 +1,7 @@
 # My Custom MVC on php 
 ## Docker
-###.env
+### .env
+
 DOMAIN=local.local
 
 PROJECT_NAME=bingo_project
