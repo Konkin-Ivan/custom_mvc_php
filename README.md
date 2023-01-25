@@ -2,11 +2,11 @@
 ## Docker
 ### .env
 
-DOMAIN=local.local
+DOMAIN=your.domain
 
-PROJECT_NAME=bingo_project <-- change it
+PROJECT_NAME=your_project
 
-docker-compose up -d <-- change it
+docker-compose up -d 
 
 ## Project folder
 web/public
