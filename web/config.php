@@ -4,7 +4,7 @@ return [
   'database' => [
     'host' => 'db',
     'port' => 3306,
-    'dbname' => 'posts',
+    'dbname' => 'laravel',
     'charset' => 'utf8'
   ]
   

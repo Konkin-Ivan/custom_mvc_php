@@ -1,20 +1,22 @@
 <?php
 
-require_once 'functions.php';
-require_once 'Database.php';
-require_once 'router.php';
-//phpinfo();
+use Core\Router;
 
-$config = require_once 'config.php';
+const BASE_PATH = __DIR__ . '/../';
 
-$db = new Database($config['database']);
+require_once BASE_PATH . 'Core/utilities/functions.php';
+require_once BASE_PATH . 'Core/utilities/dd.php';
 
-$posts = $db->query("select * from posts")->fetchAll();
+spl_autoload_register(function ($class) {
+    $class = str_replace('\\', DIRECTORY_SEPARATOR, $class);
+    require_once base_path("{$class}.php");
+});
 
-foreach ($posts as $post) {
-  echo "<li>" . $post['Title'] . "</li>";
-}
+$router = new Router();
 
-echo '<pre>';
-//var_dump($posts);
-echo '</pre>';
+$routes = require_once base_path('routers.php');
+$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
+
+$method = $_POST['_method'] ?? $_SERVER['REQUEST_METHOD'];
+
+$router->route($uri, $method);
