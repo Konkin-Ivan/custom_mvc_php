@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T12:48:47.926Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="lwU_hEJ6PIPk_GC6WCjv" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T14:23:14.277Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PeiAcvfUgmAli49GqXOK" version="23.1.1" type="github">
   <diagram name="Страница — 1" id="D9SttNDZT6tnPS4_ydYZ">
     <mxGraphModel dx="1318" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry x="40" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-14" value="responce" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="750" width="120" height="80" as="geometry" />
+          <mxGeometry x="40" y="860" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-18" value="get: /,&lt;br&gt;/about,&lt;br&gt;/contact;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bmigbRyT042KOyTuzd-3-21" value="get: /login" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="bmigbRyT042KOyTuzd-3-21" value="get:&amp;nbsp;/register" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-18" target="bmigbRyT042KOyTuzd-3-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -22,13 +22,13 @@
             <mxPoint x="260" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bmigbRyT042KOyTuzd-3-23" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="bmigbRyT042KOyTuzd-3-23" value="post:&amp;nbsp;/register" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-21" target="bmigbRyT042KOyTuzd-3-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="400" as="sourcePoint" />
-            <mxPoint x="850" y="350" as="targetPoint" />
+            <mxPoint x="540" y="400" as="sourcePoint" />
+            <mxPoint x="590" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-26" value="controller: отправка данных во views;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -82,12 +82,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bmigbRyT042KOyTuzd-3-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-27" target="bmigbRyT042KOyTuzd-3-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="800" as="sourcePoint" />
-            <mxPoint x="440" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmigbRyT042KOyTuzd-3-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="580" as="sourcePoint" />
@@ -125,6 +119,75 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="190" as="sourcePoint" />
             <mxPoint x="550" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-59" value="middleware" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-21" target="bmigbRyT042KOyTuzd-3-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="560" as="sourcePoint" />
+            <mxPoint x="230" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-61" value="onlyGuest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-62" value="Редирект на /user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-59" target="bmigbRyT042KOyTuzd-3-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="560" as="sourcePoint" />
+            <mxPoint x="230" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-59" target="bmigbRyT042KOyTuzd-3-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="560" as="sourcePoint" />
+            <mxPoint x="580" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-66" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmigbRyT042KOyTuzd-3-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="580" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-67" value="middleware" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-68" value="onlyGuest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-67" target="bmigbRyT042KOyTuzd-3-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="560" as="sourcePoint" />
+            <mxPoint x="850" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-23" target="bmigbRyT042KOyTuzd-3-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-72" value="сбросить сессию" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-27" target="bmigbRyT042KOyTuzd-3-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="730" as="sourcePoint" />
+            <mxPoint x="490" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-72" target="bmigbRyT042KOyTuzd-3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="730" as="sourcePoint" />
+            <mxPoint x="490" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
