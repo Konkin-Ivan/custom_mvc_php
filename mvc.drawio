@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T14:40:45.053Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_3wPZQka8BqV4YCMwQTz" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T15:15:45.409Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="j0Svq1QIUCaRbJL3OoPt" version="23.1.1" type="github">
   <diagram name="Страница — 1" id="D9SttNDZT6tnPS4_ydYZ">
-    <mxGraphModel dx="1318" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="40" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-14" value="responce" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="940" width="120" height="80" as="geometry" />
+          <mxGeometry x="40" y="1580" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-18" value="get: /,&lt;br&gt;/about,&lt;br&gt;/contact;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
@@ -23,7 +23,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-23" value="post:&amp;nbsp;/register" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-21" target="bmigbRyT042KOyTuzd-3-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -32,18 +32,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-26" value="controller: отправка данных во views;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-27" value="render во views" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="1380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-34" value="catch" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="350" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-39" target="bmigbRyT042KOyTuzd-3-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="670" as="sourcePoint" />
-            <mxPoint x="440" y="630" as="targetPoint" />
+            <mxPoint x="100" y="1310" as="sourcePoint" />
+            <mxPoint x="440" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmigbRyT042KOyTuzd-3-34">
@@ -53,7 +53,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-37" value="403" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-34" target="bmigbRyT042KOyTuzd-3-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -65,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-39" value="404" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-34" target="bmigbRyT042KOyTuzd-3-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -75,19 +75,19 @@
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-42" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="680" as="sourcePoint" />
-            <mxPoint x="100" y="700" as="targetPoint" />
+            <mxPoint x="390" y="1320" as="sourcePoint" />
+            <mxPoint x="100" y="1340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="240" y="700" />
+              <mxPoint x="240" y="1340" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmigbRyT042KOyTuzd-3-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="700" as="sourcePoint" />
-            <mxPoint x="440" y="630" as="targetPoint" />
+            <mxPoint x="240" y="1340" as="sourcePoint" />
+            <mxPoint x="440" y="1270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="700" />
+              <mxPoint x="380" y="1340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -134,7 +134,7 @@
           <mxGeometry x="600" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-62" value="Редирект на /user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-59" target="bmigbRyT042KOyTuzd-3-61">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -144,44 +144,44 @@
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-66" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmigbRyT042KOyTuzd-3-62">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="700" as="sourcePoint" />
-            <mxPoint x="490" y="490" as="targetPoint" />
+            <mxPoint x="380" y="1340" as="sourcePoint" />
+            <mxPoint x="490" y="1130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="700" />
+              <mxPoint x="520" y="1340" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-67" value="middleware" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="350" width="80" height="80" as="geometry" />
+          <mxGeometry x="940" y="350" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-68" value="onlyGuest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="1060" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-67" target="bmigbRyT042KOyTuzd-3-68">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="560" as="sourcePoint" />
-            <mxPoint x="860" y="390" as="targetPoint" />
+            <mxPoint x="1020" y="390" as="sourcePoint" />
+            <mxPoint x="1040" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-23" target="bmigbRyT042KOyTuzd-3-67">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="420" as="sourcePoint" />
-            <mxPoint x="500" y="370" as="targetPoint" />
+            <mxPoint x="630" y="420" as="sourcePoint" />
+            <mxPoint x="980" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-72" value="сбросить сессию" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-27" target="bmigbRyT042KOyTuzd-3-72">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="850" as="sourcePoint" />
-            <mxPoint x="490" y="800" as="targetPoint" />
+            <mxPoint x="440" y="1490" as="sourcePoint" />
+            <mxPoint x="490" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-72" target="bmigbRyT042KOyTuzd-3-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="850" as="sourcePoint" />
-            <mxPoint x="490" y="800" as="targetPoint" />
+            <mxPoint x="440" y="1490" as="sourcePoint" />
+            <mxPoint x="490" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-75" value="onlyAuth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -200,12 +200,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-78" value="onlyAuth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-79" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-67" target="bmigbRyT042KOyTuzd-3-78">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="490" as="sourcePoint" />
-            <mxPoint x="500" y="440" as="targetPoint" />
+            <mxPoint x="980" y="430" as="sourcePoint" />
+            <mxPoint x="680" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-80" value="controller registration/create - заполнение формы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -217,13 +217,108 @@
             <mxPoint x="490" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bmigbRyT042KOyTuzd-3-82" value="controller registration/store - запись в БД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="580" width="120" height="60" as="geometry" />
+        <mxCell id="bmigbRyT042KOyTuzd-3-82" value="controller registration/store - Создание экземпляра класса БД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="bmigbRyT042KOyTuzd-3-83" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-80" target="bmigbRyT042KOyTuzd-3-82">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="490" as="sourcePoint" />
             <mxPoint x="490" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-85" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-82" target="bmigbRyT042KOyTuzd-3-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="630" as="sourcePoint" />
+            <mxPoint x="660" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-86" value="запись в сессию переменных $email, $phoneNumber, $name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-88" value="!Validator&lt;br&gt;Email" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-86" target="bmigbRyT042KOyTuzd-3-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="920" as="sourcePoint" />
+            <mxPoint x="490" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-90" value="$errors[&#39;email&#39;] = &#39;Пожалуйста, представьте действующий адрес электронной почты.&#39;;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="735" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-92" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmigbRyT042KOyTuzd-3-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="780" as="sourcePoint" />
+            <mxPoint x="490" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-94" value="!Validator&lt;br&gt;Email" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="845" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-88" target="bmigbRyT042KOyTuzd-3-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="790" as="sourcePoint" />
+            <mxPoint x="490" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-96" value="$errors[&#39;email&#39;] = &#39;Пожалуйста, представьте действующий адрес электронной почты.&#39;;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="840" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-94" target="bmigbRyT042KOyTuzd-3-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="790" as="sourcePoint" />
+            <mxPoint x="490" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-98" value="sendSms();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-99" value="redirect: /confirmation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-100" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-98" target="bmigbRyT042KOyTuzd-3-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1080" as="sourcePoint" />
+            <mxPoint x="490" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-94" target="bmigbRyT042KOyTuzd-3-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1080" as="sourcePoint" />
+            <mxPoint x="490" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-103" value="!Empty&lt;br&gt;$errors" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-104" value="отправка $errors в&lt;br&gt;registration/&lt;br&gt;create.view.php" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-105" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-99" target="bmigbRyT042KOyTuzd-3-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1080" as="sourcePoint" />
+            <mxPoint x="490" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-106" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bmigbRyT042KOyTuzd-3-103" target="bmigbRyT042KOyTuzd-3-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1080" as="sourcePoint" />
+            <mxPoint x="490" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bmigbRyT042KOyTuzd-3-108" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="bmigbRyT042KOyTuzd-3-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1340" as="sourcePoint" />
+            <mxPoint x="490" y="1310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="1340" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
